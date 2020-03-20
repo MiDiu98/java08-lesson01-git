@@ -1,5 +1,5 @@
 private int sum(int a, int b) throws Exception {
-	if ((a+b)> Integer.MAX) {
+	if ((a+b)> Integer.MAX) { // <--- Điều kiện không bao giờ đúng :v
 		throw new Exception();
 	}
 	return a+b;
